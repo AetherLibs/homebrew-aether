@@ -7,10 +7,9 @@ class OpenjdkAT8 < Formula
   license "GPL-2.0-only"
 
   bottle do
-    sha256 cellar: :any,                 monterey:     "2fe2f45f60039781d805766bce7cf91f35fdd7e816ab45a3f9421c35c72ee0ad"
-    sha256 cellar: :any,                 big_sur:      "8969ae63046dffea04c92479627a6b605f2f05039c58aa9f88cac36e1be2159b"
-    sha256 cellar: :any,                 catalina:     "00f033ef2901ecf05c7a0f3aac5c7d877883e61222d463913eb9d274c3a24526"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "1c8bedf5c49dc837b0f54917bf0aec58287334d20e887150970cefd42b698c11"
+    root_url "https://ghcr.io/v2/aetherlibs/aether"
+    sha256 cellar: :any,                 big_sur:      "4288dba6e267abe6e12e1359bd1c3c5cc487ecc99ac8be780142be2455b681e5"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "301b8a1e022d9370512b1c1502b76725c6d22fcf3536f842b6ea401aec5da32a"
   end
 
   keg_only :versioned_formula
