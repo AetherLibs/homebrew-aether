@@ -1,4 +1,4 @@
-cask "polymc" do
+cask "polymc-launcher" do
   version "1.3.1"
   sha256 "847345bb33c4b454c383a4f3e4f051b08433fc2839ef1446cac3a109fb3bf8aa"
 
