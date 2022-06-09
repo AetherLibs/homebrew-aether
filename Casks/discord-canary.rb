@@ -1,4 +1,4 @@
-cask "discord" do
+cask "discord-canary" do
   version "0.0.284"
 
   url "https://dl-canary.discordapp.net/apps/osx/#{version}/DiscordCanary.dmg",
