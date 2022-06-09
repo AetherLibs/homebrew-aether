@@ -8,7 +8,7 @@ cask "discord" do
   homepage "https://canary.discord.com/"
 
   livecheck do
-    url "https://discordapp.com/api/download/canary?platform=osx"
+    url "https://discord.com/api/download/canary?platform=osx"
     strategy :header_match
   end
 
